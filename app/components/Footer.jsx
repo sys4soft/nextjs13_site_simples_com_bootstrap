@@ -4,7 +4,8 @@ export default function Footer() {
             <footer className="container-fluid bg-black text-white mt-auto">
                 <div className="row">
                     <div className="col p-3 text-center">
-                        conteúdo do footer aqui
+                        {/* site name, copy symbol and current year */}
+                        &copy; {new Date().getFullYear()} <span className="text-secondary">Website simples com NextJS 13 e Bootstrap</span>
                     </div>
                 </div>
             </footer>
