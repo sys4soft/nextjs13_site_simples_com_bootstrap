@@ -8,7 +8,7 @@ import Footer from "./components/Footer"
 export default function RootLayout({ children }) {
   return (
     <html lang="pt">
-      <body class="d-flex flex-column min-vh-100">
+      <body className="d-flex flex-column min-vh-100">
         <Navbar />
         {children}
         <Footer />
