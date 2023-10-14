@@ -33,3 +33,11 @@
 .section-two {
   background-color: rgb(164, 180, 189);
 }
+
+/* points of interest */
+.points-of-interest {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
