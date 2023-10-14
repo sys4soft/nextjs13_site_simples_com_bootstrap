@@ -8,6 +8,7 @@ export default function Navbar() {
                 <div className="row">
                     <div className="col p-3">
                         <Image src="/assets/images/logo.png" alt="Logo" width={50} height={50} />
+                        <span class="ms-3 text-info">NEW YORK CITY</span> | <span>USA</span>
                     </div>
                     <div className="col p-3 text-end align-self-center">
                         <Link href="/" className="link">Home</Link>
